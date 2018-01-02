@@ -8,4 +8,4 @@ commands: "speak to me about..." or "what about..." or "tell me about..."
 (e.g. "tell me about Jimi Hendrix")
 
 ## demo
-See it live at https://francesconatali.com/personalprojects/ifoundyou/
+See it live at https://francesconatali.com/personalprojects/speaktome/
