@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-    <link href="style.css?v=6" rel="stylesheet" type="text/css">
+    <link href="style.css?v=8" rel="stylesheet" type="text/css">
 
     <script src="https://unpkg.com/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
@@ -16,23 +16,6 @@
     <script src="artyom.window.min.js"></script>
     <script src="particles.min.js"></script>
 
-    <style>
-    
-        #article {
-            font-weight: 400;
-            margin-top: 45px;
-            text-align: justify;
-          }
-        
-        #article .letter {
-            opacity: 0;
-        }
-
-        #github {
-            z-index: 99;
-            opacity: 0.88;
-        }
-    </style>
 </head>
 <body>
     
@@ -214,6 +197,8 @@
                 speaktome.addCommands(myGroup); 
             }).catch((err) => {
                 console.error("SpeakToMe couldn't be initialized: ", err);
+                //
+                $("#article").html("* Sorry but for now this works only on Google Chrome.");
             });
             
         });    
